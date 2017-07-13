@@ -4,4 +4,3 @@ license = "MIT"
 name = "vienna"
 source_repo = "git@github.com:keichi/vienna.git"
 tags = ["blog", "tags", "bootstrap"]
-est
