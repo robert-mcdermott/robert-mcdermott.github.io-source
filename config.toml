@@ -1,0 +1,23 @@
+baseURL = "https://robert-mcdermott.github.io/"
+languageCode = "en-us"
+title = "Robert McDermott"
+theme = "vienna"
+copyright = "Robert McDermott &nbsp; &ltrobert.c.mcdermott@gmail.com&gt"
+
+[params]
+    # Social accounts. Link to these accounts are displayed in the header and
+    # footer.
+    #twitter = "Your Twitter username"
+    github = "robert-mcdermott"
+    linkedin = "Your LinkedIn username"
+    #facebook = "Your Facebook username"
+    # Disqus shortname
+    disqus = "robert-mcdermott-github-io"
+    #author = "Robert McDermott"
+    #avatar = "/images/me.jpg"
+    #contact = "mailto:robert.c.mcdermott@gmail.com"
+    #bio = "Your short bio"
+    #Short subtitle/tagline. This is displayed in the header.
+    subtitle = "Short subtitle/tagline of your blog"
+    themecolor = "#ff0000" # Defines the tab color in Chrome for Android.
+

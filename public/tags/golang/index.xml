@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Robert McDermott</title>
+    <link>https://robert-mcdermott.github.io/tags/golang/</link>
+    <description>Recent content in Golang on Robert McDermott</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Robert McDermott &amp;nbsp; &amp;ltrobert.c.mcdermott@gmail.com&amp;gt</copyright>
+    <lastBuildDate>Wed, 12 Jul 2017 20:34:06 -0700</lastBuildDate>
+    
+	<atom:link href="https://robert-mcdermott.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World GO</title>
+      <link>https://robert-mcdermott.github.io/post/hello-world/</link>
+      <pubDate>Wed, 12 Jul 2017 20:34:06 -0700</pubDate>
+      
+      <guid>https://robert-mcdermott.github.io/post/hello-world/</guid>
+      <description>Here is a concurent Hello World app in Go:
+package main import &amp;quot;fmt&amp;quot; func main(){ ch := make(chan string, 10) for x := 0; x &amp;lt; 10; x++ { go func(x int){ ch &amp;lt;- fmt.Sprintf(&amp;quot;Hello World: %d&amp;quot;, x) }(x) } for x := 0; x &amp;lt; 10; x++ { fmt.Println(&amp;lt;- ch) } close(ch) }  The above code when run will run 10 goroutines concurrently. Here is the output:
+Hello World: 9 Hello World: 6 Hello World: 5 Hello World: 0 Hello World: 7 Hello World: 4 Hello World: 8 Hello World: 2 Hello World: 3 Hello World: 1  Notice how they are out of order?</description>
+    </item>
+    
+  </channel>
+</rss>
