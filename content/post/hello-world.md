@@ -2,7 +2,7 @@
 title: "Hello World GO"
 date: 2017-07-12T20:34:06-07:00
 draft: false
-image: "../../images/me.jpg"
+#image: "../../images/me.jpg"
 tags: ["golang", "helloworld"]
 ---
 
