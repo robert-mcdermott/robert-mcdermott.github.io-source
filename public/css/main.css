@@ -261,14 +261,12 @@ a.btn-back {
 
 pre {
     font-size: 14px;
-    padding: 100px;
 }
 
 pre code {
     overflow: auto;
     white-space: pre;
     word-wrap: normal;
-    padding: 100px;
 }
 
 .pager li>a {
