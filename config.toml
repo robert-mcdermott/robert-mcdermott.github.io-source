@@ -8,16 +8,16 @@ copyright = "Robert McDermott &nbsp; &ltrobert.c.mcdermott@gmail.com&gt"
     # Social accounts. Link to these accounts are displayed in the header and
     # footer.
     #twitter = "Your Twitter username"
-    github = "robert-mcdermott"
-    linkedin = "Your LinkedIn username"
+    #github = "robert-mcdermott"
+    #linkedin = "Robert-mcdermott-a77b9011"
     #facebook = "Your Facebook username"
     # Disqus shortname
     disqus = "robert-mcdermott-github-io"
     #author = "Robert McDermott"
     #avatar = "/images/me.jpg"
     #contact = "mailto:robert.c.mcdermott@gmail.com"
-    #bio = "Your short bio"
+    #bio = ""
     #Short subtitle/tagline. This is displayed in the header.
-    subtitle = "Short subtitle/tagline of your blog"
-    themecolor = "#ff0000" # Defines the tab color in Chrome for Android.
+    subtitle = "Random Technical Stuff"
+    themecolor = "#0000ff" # Defines the tab color in Chrome for Android.
 
